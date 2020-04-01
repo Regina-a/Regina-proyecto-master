@@ -1,0 +1,27 @@
+.primer-estilo{
+  color : red;
+  font-size:20px;
+  background-color: brown;
+
+}
+.al {
+  display: inline-flex;
+}
+
+.segundo-estilo{
+color : #001AB2;
+font-size:20px;
+}
+
+ a {
+  background-color: yellow;
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: #100A2D;
+}
+h1{
+font-family: sans-serif;
+
+}
