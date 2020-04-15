@@ -43,5 +43,32 @@ background-color: #000000;
 
 .nota{
   height: 100px;
-  background-color:red; 
+}
+
+.pnd{
+
+
+
+}
+
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('https://i.pinimg.com/564x/0e/ac/f4/0eacf40501556df85e14089ebd4e0c1f.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
 }
