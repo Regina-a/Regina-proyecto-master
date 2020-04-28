@@ -1,16 +1,32 @@
-function cambiarcolor(){
-console.log ('Dieron click')
+let  coloreado = false
+let  subrayado = false
 
+function pnombre(){
+let nombre = prompt("hola")
+document.getElementById("saludo").innerHTML = "hola " + nombre + "! "
 
-
- let etiqueta = document.getElementById('aqui')
- etiqueta.classList.add("letrasrojas")
 }
+
+function colorear(){
+let texto = document.getElementById("saludo")
+if (coloreado == false) {
+  texto.classList.add("letrasrojas")
+  coloreado = true
+}else {
+  texto.classList.remove("letrasrojas")
+  coloreado = false
+}
+
+}
+
 function subrayar(){
-console.log ('Dieron click')
+let texto = document.getElementById("saludo")
+if (subrayado == false) {
+  texto.classList.add("subra")
+  subrayado = true
+}else {
+  texto.classList.remove("subra")
+ subrayado = false
+}
 
-
-
- let etiqueta = document.getElementById('aqui')
- etiqueta.classList.add("subra")
 }
