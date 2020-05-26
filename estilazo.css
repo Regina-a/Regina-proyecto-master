@@ -1,5 +1,5 @@
 nav{
-  height: 200px;
+
   background-color: #fff275;
 }
 main{
@@ -71,4 +71,13 @@ background-color: #000000;
 
 #sticky-footer {
   flex-shrink: none;
+}
+
+.ok{
+display: flex;
+
+
+}
+.bg-primary{
+	transition: all 1s ease;
 }
