@@ -81,3 +81,42 @@ display: flex;
 .bg-primary{
 	transition: all 1s ease;
 }
+
+.color{
+  color: #343a40;
+}
+.nueva{
+  font-family: 'Anton', sans-serif;
+}
+
+.cajas{
+  justify-content: center;
+}
+.brazo{
+  font-family: 'Staatliches', cursive;
+}
+.siete{
+font-family: 'Bowlby One SC', cursive;
+}
+
+.cei{
+  justify-content: center;
+}
+.oks{
+  background-color: #FFFFFF;
+}
+.ojo{
+  justify-content:center;
+}
+.jaja{
+  font-family: 'Bangers', cursive;
+}
+.wow{
+  font-family: 'Press Start 2P', cursive;
+}
+.queso{
+  font-family: 'Rubik Mono One', sans-serif;
+}
+.het{
+  font-family: 'VT323', monospace;
+}
